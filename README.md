@@ -1,7 +1,25 @@
-# MLLB Project (Machine and Deep Learning)
+# Predicting Air Quality in Barcelona (MLLB Report)
 
-This repository will present the experiments I made using classical machine learning techniques and deep learning techniques to predict the air quality in areas of the city of Barcelona given the past and present road traffic and weather. Once this is achieved, it can be easily used to predict the air quality in the upcoming hours (even days), because road traffic can be easily predicted and weather forecast can be fetched from weather services.
+This repository contains the code, data processing codes, and experimental results for the Predicting Air Quality in Barcelona project, conducted as a report for the MLLB (Machine Learning Laboratory) course.
 
+The goal of this project is to develop and evaluate deep learning models (and compare them with classical machine learning approaches) to predict hourly air quality (specifically PM10 concentrations) hours in the future across Barcelona.
+
+This project includes:
+- A dataset creation notebook : Code for gathering, cleaning, and merging large datasets from the Barcelona OpenData portal and the Open-Meteo API, including:
+
+  - Hourly Air Quality measurements from 8 stations.
+
+  - Hourly Road Traffic Density from hundreds of sections, aggregated into a configurable city grid.
+
+  - Hourly Weather Data (temperature, wind, precipitation, etc.).
+
+- Exploratory Data Analysis (EDA): Detailed analysis confirming data health, identifying sensor anomalies, and establishing correlations between traffic, weather, and air pollution.
+
+- Model Implementation:
+
+  - Classical Machine Learning: Gradint Boosting for initial traffic prediction.
+
+  - Deep Learning (DL) Models: Sequential Dense Neural Networks for predicting air quality régression and classification targets.
 
 ## Files in this repository
 
