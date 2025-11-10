@@ -32,7 +32,7 @@ This project includes:
 | `deep_learning_main.ipynb` | Train and test a deep learning model to predict traffic, and another to predict PM10 concentration in the air, with 12 hours overhead |
 
 
-I also include directly in the repository the `.pkl` file, so it is not mandatory to run the first two notebooks.
+I also included directly in the repository the `.pkl` files, so it is not mandatory to run the first two notebooks.
 
 ## Future work
 I plan on trying many more methods for machine learning (optimization of parameters through grid search, comparizon of models...) and deep learning (effects of the parameters, shape/type of the network...)
