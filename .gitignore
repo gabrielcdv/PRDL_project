@@ -5,4 +5,7 @@ data/
 .ipynb_checkpoints
 
 # Created dataset file
-final_dataset.pkl
+*.pkl
+
+#Images
+*.png
