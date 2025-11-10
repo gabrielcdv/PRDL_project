@@ -34,6 +34,9 @@ This project includes:
 
 I also included directly in the repository the `.pkl` files, so it is not mandatory to run the first two notebooks.
 
+## Technical details
+This project was written on my personal computer using Python 3.13.7.
+The first notebook **cannot** be executed on Google Colab because it downloads data from Barcelona's OpenData server, which blocks requests from Colab machines. The other notebooks should run fine as the datasets files are included in the repository.
 ## Future work
 I plan on trying many more methods for machine learning (optimization of parameters through grid search, comparizon of models...) and deep learning (effects of the parameters, shape/type of the network...)
 
