@@ -11,7 +11,8 @@ This repository will present the experiments I made using classical machine lear
 | `exploratory_data_analysis.ipynb `| Performs the EDA, and cleans the datasets accordingly, creating the final datasets, used by all next notebooks.|
 | `regression_main.ipynb` | Train and test a regression model to predict traffic, and another to predict PM10 concentration in the air, with 12 hours overhead |
 | `classification_main.ipynb` | Similar to the previous one, the traffic predictor is unchanged, the air quality model is now using labels |
-| `deep_learning_main.ipynb` | Train and test a deep learning model to predict traffic, and another to predict PM10 concentration in the air, with 12 hours overhead |
+| `deep_learning_naive.ipynb` | Train and test a deep learning model to predict traffic, and another to predict PM10 concentration in the air, with 12 hours overhead, using a feed-forward NN with lags and rolls in the dataset (my first, naive experiment)|
+| `deep_learning_improved.ipynb` | Train and test a deep learning model to predict traffic, and another to predict PM10 concentration in the air, with 12 hours overhead, this time using a version of the dataset whithout lags and rolls, and a model adapted to time series (1D-CNN, GRU, LSTM) |
 
 
 I also include directly in the repository the `.pkl` file, so it is not mandatory to run the first two notebooks.
